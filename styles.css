@@ -23,13 +23,13 @@ body{
 
 .button_primary{
     margin: 5px;
-    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%);
     color: white;
     border: none;
     border-radius: 10px;
     font-weight: 600;
     padding: 10px;
-    transition: 2s;
+    transition: 1s;
 }
 
 .button_primary:hover{
@@ -131,8 +131,7 @@ body{
     margin-bottom: 20px;
 }
 
-.restro_image{
-    width: 50%;
+.restro{
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -152,6 +151,17 @@ body{
     display:flex;
     width: 100%;
     gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.restro_image1, .restro_image4 {
+  width: 30vw;
+  height: 20vw;
+}
+.restro_image2, .restro_image3 {
+  width: 40vw;
+  height: 30vw;
 }
 
 .email_container_text{
@@ -224,12 +234,17 @@ body{
 
 .footer_list_items{
     list-style-type: none;
+    padding-top: 10px;
 }
 
 .list_item{
     color: #fff;
     font-size: 1.2em;
     margin-bottom: 5px;
+}
+
+.list_item:hover{
+    color: #ffbfb3;
 }
 
 @media screen and (min-width: 768px){
@@ -296,6 +311,15 @@ body{
         align-items: center;
     }
 
+    .restro_image1, .restro_image4 {
+        width: 20vw;
+        height: 10vw;
+      }
+      .restro_image2, .restro_image3 {
+        width: 25vw;
+        height: 15vw;
+      }
+
     .email{
         font-size: 1.2em;
         width:50%;
@@ -310,10 +334,12 @@ body{
         flex-direction: row;
         margin-top: 20px;
         justify-content: space-evenly;
+        border-radius: 25px 25px 0 0;
     }
 
     .footer_image{
         width:40%;
+        border-radius: 25px 25px 0 0;
     }
 }
 
@@ -358,7 +384,7 @@ body{
     }
 
     .restro_text, .email_container_text{
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .dialog_container{
