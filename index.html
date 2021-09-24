@@ -12,12 +12,84 @@
     rel="stylesheet">
 </head>
 <body>
-    <div class="navbar">
-        <div class="nav-brand">
-            <img src="assets/logo.png" alt="logo" class="logo">
-        </div>
-        <button class="btn">Order Now</button>
-    </div>
-    
+    <header>
+        <nav class="navbar">
+            <div class="nav_brand">
+                <img src="assets/logo.png" alt="logo" class="navbar_logo">
+            </div>
+            <div class="navbar_nav_items">
+                <button class="nav_item button_primary">Order Food</button>
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="hero_container">
+            <div class="hero_container_image">
+                <img src="assets/hero.jpg" alt="hero image" class="hero_image">
+                <img src="assets/svg/heroShape.svg" class="ss">
+                <img src="assets/svg/herobgpattren.svg" class="ss2">
+            </div>
+            <div class="hero_description">
+                <div class="hero_text">Order food from favourite restaurants near you.</div>
+                <button class="button_primary">Order Now</button>
+            </div>
+        </section>
+        <section class="explore_menu_container">
+            <div class="explore_menu_bg"></div>
+            <h1 class="explore_menu_text">Explore Our Food</h1>
+            <div class="explore_menu_lists">
+                <div class="food_cards">
+                    <div class="food_cart_image">
+                        <img src="assets/burger.jpg" alt="burger" class="food_image">
+                    </div>
+                    <div class="food_card_description">
+                        <h3 class="food_title">Burger</h3>
+                        <p>Burger King, Mcdonalds, Burger Place +3</p>
+                    </div>
+                </div>
+                <div class="food_cards" id="pizza_card">
+                    <div class="food_card_image"><img src="assets/pizza.jpg" alt="pizza" class="food_image"></div>
+                    <div class="food_card_description">
+                        <h3 class="food_title">Pizza</h3>
+                        <p>Pizza Hut, Domino's Pizza +3</p>
+                    </div>
+                </div>
+                <div class="food_cards">
+                    <div class="food_cart_image"><img src="assets/iceCream.jpg" alt="ice cream" class="food_image"></div>
+                    <div class="food_card_description">
+                        <h3 class="food_title">Ice Cream</h3>
+                        <p>Baskin Robins, Ibaco +3</p>
+                    </div>
+                </div>
+            </div>
+            <p class="more">View More</p>
+        </section>
+        <section class="details_container">
+            <div class="restro_container">
+                <h1 class="restro_text">Order From 100s of restaurants</h1>
+                <div class="restro_image_container">
+                    <div class="images1">
+                        <img src="assets/restaurant1.jpg" alt="restro1" class="restro_image">
+                        <img src="assets/restaurant2.jpg" alt="restro2" class="restro_image">
+                    </div>
+                    <div class="images2">
+                        <img src="assets/restaurant4.jpg" alt="restro3" class="restro_image">
+                        <img src="assets/restaurant3.jpg" alt="restro4" class="restro_image">
+                    </div>
+                </div>
+            </div>
+            <div class="email_container">
+                <h1 class="email_container_text">Stay Updated</h1>
+                <div class="email_container_input">
+                    <input type="email" class="email" placeholder="email@email.com">
+                    <button class="submit button_primary">Get Updates</button>
+                </div>
+            </div>
+        </section>
+        <section class="dialog_container">
+            <div class="dialog_image_overlay"></div>
+            <h3 class="dialog_text">When a man's stomach is full it makes no difference whether he is rich or poor.</h3>
+        </section>
+    </main>
 </body>
 </html>
