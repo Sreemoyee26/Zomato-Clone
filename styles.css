@@ -144,6 +144,11 @@ body{
     padding-bottom: 5px;
 }
 
+.extras{
+    color: #f00;
+    cursor: pointer;
+}
+
 .more{
     font-size: 25px;
     color: #fff;
